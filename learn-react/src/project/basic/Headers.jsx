@@ -1,4 +1,4 @@
-function Header() {
+function Headers() {
 
     let logo = "LOGO"
 
@@ -30,4 +30,4 @@ function Header() {
         </div>
     )
 }
-export default Header
+export default Headers

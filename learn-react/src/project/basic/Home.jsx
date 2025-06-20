@@ -1,7 +1,7 @@
-import Header from "./Header.jsx"
 import Footer from "./Footer.jsx"
-import HeroSection from "./HeroSection.jsx"
+import Heropage from "./Heropage.jsx"
 import OurProject from "./OurProject.jsx"
+import Headers from "./Headers.jsx"
 
 function Home(){
 
@@ -9,8 +9,8 @@ function Home(){
     return(
         <div className="w-full m-auto ">
 
-            <Header/>
-            <HeroSection/>
+            <Headers/>
+            <Heropage/>
             <OurProject/>
             <Footer/>
         </div>

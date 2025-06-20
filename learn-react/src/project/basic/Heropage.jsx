@@ -1,5 +1,5 @@
 
-function HeroSection() {
+function Heropage() {
 
     return (
         <div className="py-5">
@@ -7,23 +7,23 @@ function HeroSection() {
                 <div className="flex w-1/2 justify-between  mr-5 ">
                     <div className="w-1/3">
                         <div className="border text-3xl font-bold text-center p-5 ">
-<p className="text-yellow-500">icon</p>
-<p className="text-zinc-700 p-3">15+</p>
-<p className="text-sky-800 "> Complet Project</p>
+                            <p className="text-yellow-500">icon</p>
+                            <p className="text-zinc-700 p-3">15+</p>
+                            <p className="text-sky-800 "> Complet Project</p>
                         </div>
                         <div className="border text-3xl font-bold text-center p-5 ">
-<p className="text-yellow-500">icon</p>
-<p className="text-zinc-700 p-3">2000+</p>
-<p className="text-sky-800 "> Happy Clients </p>
+                            <p className="text-yellow-500">icon</p>
+                            <p className="text-zinc-700 p-3">2000+</p>
+                            <p className="text-sky-800 "> Happy Clients </p>
                         </div>
                         <div className="border text-3xl font-bold text-center p-5 ">
-<p className="text-yellow-500">icon</p>
-<p className="text-zinc-700 p-3">12+</p>
-<p className="text-sky-800 "> Exprince</p>
+                            <p className="text-yellow-500">icon</p>
+                            <p className="text-zinc-700 p-3">12+</p>
+                            <p className="text-sky-800 "> Exprince</p>
                         </div>
                     </div>
                     <div className="">
-                        <img src="" alt="image" />
+                        <img src="" alt="logo" />
                     </div>
                 </div>
                 <div className="w-1/2">
@@ -33,27 +33,27 @@ function HeroSection() {
 
                         We deal with all ranges of properties such as luxury villas, commercial Plots, apartments, and even sprawling farmhouses. Our team’s responsibilities include everything and anything from buying, selling, constructing, maintaining, and marketing real estate projects. If it’s property-related, we’ve got you covered.</p>
 
-<div className="flex justify-between py-5 ">
-    <div className="flex items-center rounded shadow-lg p-5">
-<img src="" alt="dp" />
-<div className="px-2">
-    <p className="text-2xl">AJAY KUMAWAT</p>
-    <p>Markitin Maneger</p>
-</div>
-    </div>
+                    <div className="flex justify-between py-5 ">
+                        <div className="flex items-center rounded shadow-lg p-5">
+                            <img src="" alt="dp" />
+                            <div className="px-2">
+                                <p className="text-2xl">AJAY KUMAWAT</p>
+                                <p>Markitin Maneger</p>
+                            </div>
+                        </div>
 
-    <div className="flex items-center shadow-lg p-5">
-<img src="" alt="dp" />
-<div className="px-2">
-    <p className="text-2xl">AJAY KUMAWAT</p>
-    <p>Markitin Maneger</p>
-</div>
-    </div>
-</div>
+                        <div className="flex items-center shadow-lg p-5">
+                            <img src="" alt="dp" />
+                            <div className="px-2">
+                                <p className="text-2xl">AJAY KUMAWAT</p>
+                                <p>Markitin Maneger</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     )
 
 }
-export default HeroSection
+export default Heropage
